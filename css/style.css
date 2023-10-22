@@ -1,0 +1,128 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* ------------------------------------------------ */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 19px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 0 13px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul>li>a:hover{
+    color: rgb(192,189,205);
+}
+
+.logo img{
+    width:16px;
+    filter: invert(1);
+}
+
+/* ----------------------------------------------- */
+
+
+/* Main */
+
+main{
+    min-height: 100vh;
+    padding: 2px;
+}
+
+.container{
+    /* background-color: azure; */
+    max-width: 80vw;
+    margin: auto;
+    padding: 9px 15px;
+}
+
+.container h1{
+    padding: 12px 0;
+}
+
+input[type='email']{
+    min-width: 20vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#resultCont div::first-letter{
+    text-transform: uppercase;
+}
+/* ----------------------------------------------- */
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* ----------------------------------------------- */
+
+
+/* Media Queries */
+
+@media only screen and (max-width:600px){
+    .container{
+        font-size: 12px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 6px 0; 
+    }
+
+    .logo span{
+        font-size: 20px;
+    }
+
+    .logo img{
+        width:20px;
+        filter: invert(1);
+    }
+}
+
+/* ----------------------------------------------- */
+
+
