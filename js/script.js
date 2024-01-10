@@ -1,4 +1,4 @@
-let key = "ema_live_dAyrFbjNQpYtFnkcy3aD6uG3H8zt2PyqU1VRM5bE"
+let key = "" // your emailvalidation.io api key goes here
 
 submitBtn.addEventListener("click", async (e) => {
     e.preventDefault()
